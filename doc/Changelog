@@ -2397,7 +2397,7 @@
 
 10 May 2015: Wouter
 	- Change syntax of particular validator error to be easier for
-	  machine parse, swap rrset and ip adres info so it looks like:
+	  machine parse, swap rrset and ip address info so it looks like:
 	  validation failure <www.example.nl. TXT IN>: signature crypto
 	  failed from 2001:DB8:7:bba4::53 for <*.example.nl. NSEC IN>
 
