@@ -7270,7 +7270,7 @@
 	  qname has to be reset to the original qname.
 
 13 September 2007: Wouter
-	- nsec3 find matching and covering, ce proof, prove namerror msg.
+	- nsec3 find matching and covering, ce proof, prove nameerror msg.
 
 12 September 2007: Wouter
 	- fixup of manual page warnings, like for NSD bugreport.
