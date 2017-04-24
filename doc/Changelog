@@ -5656,7 +5656,7 @@
 	- initgroups(3) is called to drop secondary group permissions, if
 	  applicable.
 	- configure option --with-ldns-builtin forces the use of the 
-	  inluded ldns package with the unbound source.  The -I include
+	  included ldns package with the unbound source.  The -I include
 	  is put before the others, so it avoids bad include files from
 	  an older ldns install.
 	- daemon(3) posix call is used when available.
