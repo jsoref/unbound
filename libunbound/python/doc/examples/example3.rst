@@ -1,4 +1,4 @@
-.. _example_asynch:
+.. _example_async:
 
 Asynchronous lookup
 ===================
