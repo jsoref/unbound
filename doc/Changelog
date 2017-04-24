@@ -3750,7 +3750,7 @@
 	- Fix for memory leak (about 20 bytes when a tcp or udp send operation
 	  towards authority servers failed, takes about 50.000 such failures to
 	  leak one Mb, such failures are also usually logged), reported by
-	  Robert Fleischmann.
+	  Robert Fleischman.
 	- iana portlist updated.
 
 19 December 2011: Wouter
