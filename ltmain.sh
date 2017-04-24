@@ -1583,7 +1583,7 @@ func_run_hooks ()
 #
 #        # Note that for efficiency, we parse as many options as we can
 #        # recognise in a loop before passing the remainder back to the
-#        # caller on the first unrecognised argument we encounter.
+#        # caller on the first unrecognized argument we encounter.
 #        while test $# -gt 0; do
 #          opt=$1; shift
 #          case $opt in
@@ -1758,7 +1758,7 @@ func_parse_options ()
                       ;;
 
         --)           break ;;
-        -*)           func_fatal_help "unrecognised option: '$_G_opt'" ;;
+        -*)           func_fatal_help "unrecognized option: '$_G_opt'" ;;
         *)            set dummy "$_G_opt" ${1+"$@"}; shift; break ;;
       esac
     done
